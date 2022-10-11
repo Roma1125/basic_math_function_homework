@@ -2,10 +2,10 @@
 # Create function arguments a.
 # Round the result to 2 decimal places.
 # Assign the value pi to the variable "a" and return.
-from math import pi
+import math
 
 
 def main(a):
     a=round(a,2)
     return a
-print(main(pi))
+print(main((math.pi)))
